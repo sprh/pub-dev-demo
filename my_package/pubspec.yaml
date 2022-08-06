@@ -1,6 +1,6 @@
 name: my_package
 description: pub.dev lecture demo package
-version: 0.1.0
+version: 0.2.0
 
 environment:
   sdk: ">=2.15.0 <3.0.0"
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  eo_color: ^1.0.0
+  eo_color: ^2.0.0
 
 dev_dependencies:
   flutter_lints: ^1.0.0
