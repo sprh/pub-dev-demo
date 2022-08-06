@@ -1,5 +1,6 @@
 import 'package:eo_color/eo_color.dart';
 import 'package:flutter/material.dart';
+import 'package:my_package/my_package.dart';
 
 class HomeWidget extends StatelessWidget {
   const HomeWidget({Key? key}) : super(key: key);
@@ -12,7 +13,7 @@ class HomeWidget extends StatelessWidget {
           title: const Text('Demo'),
         ),
         body: const Center(
-          child: Text('Coming soon...'),
+          child: CalculatorWidget(),
         ),
       );
 }
